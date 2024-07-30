@@ -43,7 +43,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 const SERPAPI_KEY = '3f8d481c12f86071fc2a02b8fd3dcfc8019726b43eb4a929f53fe7ad4281d411';
-const PROXY_URL = 'https://cors-anywhere.herokuapp.com/';
+const PROXY_URL = 'https://marktplce-heroku.herokuapp.com/';
 
 async function fetchSerpApiData(query) {
     try {
